@@ -81,7 +81,7 @@ We usually add this to a .env file in root directory of the purpleteam-orchestra
 
 `HOST_DIR=</mnt/your-spare-drive/Logs/purpleteam/outcomes>`
 
-This host directory gets written to by the testers and orchestrator and read from the orchestrator. Make sure it has permissions for this.
+This host directory gets written to by the testers and orchestrator and read from the orchestrator. This directory needs group rwx permissions at least.
 
 ## Set-up for Running Emissaries
 
