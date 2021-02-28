@@ -131,4 +131,4 @@ Details on installing the purpleteam (CLI) dependencies, configuring and running
 
 <br>
 
-Once completed the set-up if you are running the `local` environment, head to the [workflow](https://github.com/purpleteam-labs/purpleteam-doc/blob/main/local/local-workflow.md) page to get all of the purpleteam components running `local`ly.
+Once completed the `local` set-up, head to the [workflow](https://github.com/purpleteam-labs/purpleteam-doc/blob/main/local/local-workflow.md) page to get all of the purpleteam components running `local`ly.

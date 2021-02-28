@@ -1,6 +1,6 @@
 # local workflow
 
-Make sure you have been through the [set-up](/local/local-setup.md) page and followed all the steps before working through this workflow page.
+Make sure you have been through the `local` [set-up](/local/local-setup) page and followed all the steps before working through this workflow page.
 
 # Emulating the AWS Lambda service
 
@@ -175,11 +175,11 @@ Discussed [here](https://glebbahmutov.com/blog/debugging-mocha-using-inspector/)
 
 ### [CLI](https://github.com/purpleteam-labs/purpleteam)
 
-Assuming you have set the relevant environment variables [detailed](https://github.com/purpleteam-labs/purpleteam) for the CLI. From the `purpleteam` root directory you can run the following command:  
+Assuming you have set the relevant environment variables [detailed](https://github.com/purpleteam-labs/purpleteam) for the CLI, from the `purpleteam` root directory you can run the following command:  
 ```shell
 npm run debug
 ```  
-Or if you need to override a NODE_ENV environment variable to `local` then run:  
+Or if you need to override the `NODE_ENV` environment variable to `local` then run:  
 ```shell
 NODE_ENV=local npm run debug
 ```  
@@ -195,7 +195,7 @@ From the `purpleteam` root directory you can run the following command:
 ```shell
 npm run test:debug
 ```  
-Or if you need to override a NODE_ENV environment variable to say `local` then run:  
+Or if you need to override the `NODE_ENV` environment variable to `local` then run:  
 ```shell
 NODE_ENV=local npm run test:debug
 ```  
@@ -289,7 +289,7 @@ Leaving `docker stats` running in a terminal is often useful to see which contai
       "sutProtocol": "https",
       ```
     
-    Assuming you have set the relevant environment variables [detailed](https://github.com/purpleteam-labs/purpleteam) for the CLI. From the purpleteam CLI root directory, run the following command:  
+    Assuming you have set the relevant environment variables [detailed](https://github.com/purpleteam-labs/purpleteam) for the CLI, from the purpleteam CLI root directory, run the following command:  
     
      ```shell
      npm start test
