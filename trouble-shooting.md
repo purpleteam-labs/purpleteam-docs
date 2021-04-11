@@ -1,5 +1,7 @@
 # trouble-shooting
 
+If any of these issues appear to be happening in the `cloud` environment, contact BinaryMist with details.
+
 # SUT requests taking too long
 
 ## Description
