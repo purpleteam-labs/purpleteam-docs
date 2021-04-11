@@ -8,7 +8,7 @@ If you are using the `local` environment, run through all of the set-up steps in
 
 # purpleteam `local` Architecture
 
-The following diagram shows how the purplteam components hang together:
+The following diagram shows how the purplteam components communicate. In the `local` environment it's your responsibility to follow all the directions to enable all components to interact correctly:
 
 ![purpleteam local architecture](../assets/img/purpleteam_local_2021-01-min.png)
 
@@ -102,7 +102,7 @@ Details on installing the orchestrator dependencies and configuring can be found
 
 # Testers
 
-Currently purpleteam has the app-scanner implemented. The server-scanner and tls-checker are stubbed out and waiting to be implemented.
+Currently purpleteam has the app-scanner implemented. The server-scanner and tls-checker are stubbed out and in the [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2) waiting to be implemented. Details on progress can be found [here](https://github.com/purpleteam-labs/purpleteam/issues/60) (for tls-checker) and [here](https://github.com/purpleteam-labs/purpleteam/issues/61) (for server-scanner).
 
 Additional Testers can be added by community contributors.
 
@@ -124,8 +124,8 @@ Details on installing the tls-checker dependencies and configuring once implemen
 
 # purpleteam (CLI)
 
-Details on installing the purpleteam (CLI) dependencies, configuring and running can be found [here](https://github.com/purpleteam-labs/purpleteam)
+Details on installing the purpleteam CLI, configuring and running can be found [here](https://github.com/purpleteam-labs/purpleteam)
 
 <br>
 
-Once completed the `local` set-up, head to the [workflow](/local/local-workflow) page to get all of the purpleteam components running `local`ly.
+Once completed the `local` set-up, head to the [workflow](../local/local-workflow.md) page to get all of the purpleteam components running `local`ly.
